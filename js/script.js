@@ -30,6 +30,7 @@ function yellowLight(){
   });
 }
 
+
 function greenLight(){
   $(".greenLight").on('click', function(e){
     $(this).toggleClass("green");
